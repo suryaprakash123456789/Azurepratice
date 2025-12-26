@@ -1,0 +1,9 @@
+{
+	"name": "RetailClass",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d989205d-d3bf-4c1b-8e54-4541737426c3",
+		"tenantId": "5177f72e-3246-4534-b840-acfb3bd27471"
+	}
+}
