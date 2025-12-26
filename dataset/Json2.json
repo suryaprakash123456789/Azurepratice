@@ -1,0 +1,38 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "olist_geolocation_dataset.json",
+				"container": "destination"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"geolocation_zip_code_prefix": {
+					"type": "string"
+				},
+				"geolocation_lat": {
+					"type": "string"
+				},
+				"geolocation_lng": {
+					"type": "string"
+				},
+				"geolocation_city": {
+					"type": "string"
+				},
+				"geolocation_state": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
