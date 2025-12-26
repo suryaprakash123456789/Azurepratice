@@ -7,6 +7,30 @@
 		},
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
+		},
+		"ls_sql_blob_password": {
+			"value": ""
+		},
+		"ls_sqldatabase_password": {
+			"value": ""
+		},
+		"ls_sql_blob_properties_typeProperties_server": {
+			"value": "shopdata.database.windows.net"
+		},
+		"ls_sql_blob_properties_typeProperties_database": {
+			"value": "shopanalys"
+		},
+		"ls_sql_blob_properties_typeProperties_userName": {
+			"value": "Edukron "
+		},
+		"ls_sqldatabase_properties_typeProperties_server": {
+			"value": "shop.database.windows.net"
+		},
+		"ls_sqldatabase_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"ls_sqldatabase_properties_typeProperties_userName": {
+			"value": "Edukron"
 		}
 	}
 }

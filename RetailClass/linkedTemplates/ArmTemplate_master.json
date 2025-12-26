@@ -11,6 +11,38 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
+		"ls_sql_blob_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'ls_sql_blob'"
+		},
+		"ls_sqldatabase_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'ls_sqldatabase'"
+		},
+		"ls_sql_blob_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "shopdata.database.windows.net"
+		},
+		"ls_sql_blob_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "shopanalys"
+		},
+		"ls_sql_blob_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "Edukron "
+		},
+		"ls_sqldatabase_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "shop.database.windows.net"
+		},
+		"ls_sqldatabase_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "master"
+		},
+		"ls_sqldatabase_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "Edukron"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +72,30 @@
 					},
 					"AzureBlobStorage1_connectionString": {
 						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					},
+					"ls_sql_blob_password": {
+						"value": "[parameters('ls_sql_blob_password')]"
+					},
+					"ls_sqldatabase_password": {
+						"value": "[parameters('ls_sqldatabase_password')]"
+					},
+					"ls_sql_blob_properties_typeProperties_server": {
+						"value": "[parameters('ls_sql_blob_properties_typeProperties_server')]"
+					},
+					"ls_sql_blob_properties_typeProperties_database": {
+						"value": "[parameters('ls_sql_blob_properties_typeProperties_database')]"
+					},
+					"ls_sql_blob_properties_typeProperties_userName": {
+						"value": "[parameters('ls_sql_blob_properties_typeProperties_userName')]"
+					},
+					"ls_sqldatabase_properties_typeProperties_server": {
+						"value": "[parameters('ls_sqldatabase_properties_typeProperties_server')]"
+					},
+					"ls_sqldatabase_properties_typeProperties_database": {
+						"value": "[parameters('ls_sqldatabase_properties_typeProperties_database')]"
+					},
+					"ls_sqldatabase_properties_typeProperties_userName": {
+						"value": "[parameters('ls_sqldatabase_properties_typeProperties_userName')]"
 					}
 				}
 			},
